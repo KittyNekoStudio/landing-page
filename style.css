@@ -1,3 +1,41 @@
 * {
-	color: blue;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+}
+
+.header-links {
+	display: flex;
+}
+
+.header-content {
+	display: flex;
+}
+
+.random-info {
+	display: flex;
+}
+
+.info-1, .info-2, .info-3, .info-4 {
+	display: flex;
+}
+
+.quote {
+	display: flex;
+}
+
+.sign-up {
+	display: flex;
+}
+
+.footer {
+	display: flex;
 }
