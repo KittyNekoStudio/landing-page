@@ -10,7 +10,6 @@ body {
 
 .header {
 	display: flex;
-	justify-content: space-between;
 	padding: 8px;
 }
 
@@ -19,14 +18,10 @@ body {
 	margin-left: 100px;
 }
 
-.hero {
-	flex: auto;
-}
-
 .header-links {
 	display: flex;
-	margin-right: 100px;
 	gap: 16px;
+	margin-right: 100px;
 	list-style: none;
 }
 
@@ -34,9 +29,24 @@ body {
 	flex: auto;
 }
 
-.header-content {
+.hero {
 	display: flex;
-	flex: auto;
+	gap: 32px;
+	justify-content: center;
+}
+
+.hero-content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+}
+
+.hero-content button {
+	max-width: 80px;
+}
+
+.hero img {
+	max-width: 600px;
 }
 
 .random-info {
