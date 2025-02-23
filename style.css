@@ -10,14 +10,33 @@ body {
 
 .header {
 	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+}
+
+.header img {
+	flex: auto;
+	margin-left: 100px;
+}
+
+.hero {
+	flex: auto;
 }
 
 .header-links {
 	display: flex;
+	margin-right: 100px;
+	gap: 16px;
+	list-style: none;
+}
+
+.header-links li {
+	flex: auto;
 }
 
 .header-content {
 	display: flex;
+	flex: auto;
 }
 
 .random-info {
